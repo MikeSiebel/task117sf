@@ -1,0 +1,38 @@
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 1px solid rgb(231, 16, 16);
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(241, 16, 16);
+    text-align: center;
+
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 1px solid rgb(15, 14, 14);
+    height: 30px;
+    width: 50px;
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 1px solid rgb(15, 14, 14);
+    height: 30px;
+    width: 50px;
+ }
+ #tab1 td {
+   border: 1px solid rgb(15, 14, 14);
+   height: 30px;
+   width: 70px;
+}
+
+ /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
+table {
+    /*width: 70%;*/
+ }
+ tbody > tr:nth-child(1){
+    background-color: rgba(255, 128, 128, 0.3);
+    font-weight: 600;
+ }
