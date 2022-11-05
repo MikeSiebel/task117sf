@@ -28,11 +28,12 @@ table {
    width: 70px;
 }
 
- /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
-table {
-    /*width: 70%;*/
- }
+
  tbody > tr:nth-child(1){
     background-color: rgba(255, 128, 128, 0.3);
     font-weight: 600;
  }
+ .conclusion{
+   color: #212883;
+   font-size: 17px;
+}
